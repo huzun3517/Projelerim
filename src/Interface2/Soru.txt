@@ -1,0 +1,41 @@
+deliveryOptions  class interface'i (arayüz) yap. 
+
+2 tane method oluþturun.
+birinci methodun ismi getTheTotal parametresi String arraylist, return type'ý int.
+ikinci methodun ismi isFreeShipping  parametresi String arraylist, return type'ý String.
+
+iki tane int oluþturun.
+ilki AmazonMinFreeDelivery = 10000 
+ikincisi CostcoMinFreeDelivery =  15000
+
+Amazon class'ýnýn içinde 
+getTheTotal method'unun içinde 3 tane bunun gibi Stirng vardýr.  $3K , $200 , $1K
+
+String'leri int yapýnýz ve toplam sayýya return ediniz.
+ not: sonunda K olan sayýlar 1000 ile çarpýlýr.
+
+isFreeShipping  methodunun içinde
+ Eðer toplam sayý AmazonMinFreeDelivery'den yüksekse "you are eligible for free delivery" yadýrýnýz.
+
+Eðer toplam sayý AmazonMinFreeDelivery'den düþük ise "you need to buy ..... amount of item." yazdrýnýz.
+
+
+Costco  class'ýnýn içinde 
+getTotal'ý ve deliveryOptions interface'indeki isFreeShipping methodunu override edin.
+
+getTheTotal methodunun içinde bunun gibi Stringler vardýr. $3K , $200 , $1K
+
+Stirng'leri int yapýn ve toplam sayýya return edin.
+not: sonunda K olan sayýlar 1000 ile çarpýlýr.
+
+isFreeShipping  methodunun içinde;
+Eðer toplam sayý CostcoMinFreeDelivery'dan yüksekse Print "you are eligible for free delivery" yazdýrýnýz.
+Eðer toplam sayý CostcoMinFreeDelivery 'dan düþükse Print "you need to buy ..... amount of item." yazdýrýnýz.
+
+main method'un içinde 
+iki tane objects oluþturun.
+Biri Amazon class'ý için
+Diðeri costco classý için. 
+
+amazon class'ýnýn içinde isFreeShipping'i çaðýrýn ve sonucu yazdýrýn.
+costco class'ýnýn içinde isFreeShipping'i çaðýrýn ve sonucu yazdýrýn.
